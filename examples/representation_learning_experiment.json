@@ -1,0 +1,471 @@
+{
+  "time_series": [
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "00-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.1
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "01-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.2
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "02-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.01
+      }
+    },
+
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "10-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.6,
+        "variance": 0.1
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "11-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.4,
+        "variance": 0.2
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "12-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.3,
+        "variance": 0.01
+      }
+    },
+
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "20-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.1,
+        "variance": 0.03
+      },
+      "trend": {
+        "slope": 0.3
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "21-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.4,
+        "variance": 0.2
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "22-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.3,
+        "variance": 0.01
+      }
+    },
+
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "30-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.1,
+        "variance": 0.03
+      },
+      "trend": {
+        "slope": -0.3
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "31-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.4,
+        "variance": 0.2
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "32-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.3,
+        "variance": 0.01
+      },
+      "trend": {
+        "slope": 0.01
+      }
+    },
+
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "40-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.1
+      },
+      "season": {
+        "period": 50,
+        "height": 2.0
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "41-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.2
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "42-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.01
+      },
+      "season": {
+        "period": 10,
+        "height": 1.0
+      }
+    },
+
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "60-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.1,
+        "variance": 0.1
+      },
+      "breaks": [
+        {
+          "from": 20,
+          "to": 200,
+          "value": 1.0
+        },
+        {
+          "from": 150,
+          "to": 200,
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "61-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.2
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "62-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.2
+      }
+    },
+
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "70-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.1,
+        "variance": 0.1
+      },
+      "breaks": [
+        {
+          "from": 20,
+          "to": 200,
+          "value": 1.0
+        },
+        {
+          "from": 150,
+          "to": 200,
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "71-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.2
+      }
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "72-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.2
+      }
+    },
+
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "80-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.05
+      },
+      "annomalies": [
+        {
+          "position": 5,
+          "coef": 2
+        },
+        {
+          "position": 10,
+          "coef": 4
+        },
+        {
+          "position": 20,
+          "coef": 4
+        },
+        {
+          "position": 50,
+          "coef": 2
+        },
+        {
+          "position": 120,
+          "coef": 3
+        },
+        {
+          "position": 150,
+          "coef": 4
+        },
+        {
+          "position": 180,
+          "coef": 0.01
+        }
+      ]
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "81-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.2
+      },
+      "annomalies": [
+        {
+          "position": 3,
+          "coef": 2
+        },
+        {
+          "position": 7,
+          "coef": 4
+        },
+        {
+          "position": 17,
+          "coef": 4
+        },
+        {
+          "position": 48,
+          "coef": 2
+        },
+        {
+          "position": 117,
+          "coef": 3
+        },
+        {
+          "position": 148,
+          "coef": 4
+        },
+        {
+          "position": 179,
+          "coef": 0.01
+        }
+      ]
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "82-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.2
+      }
+    },
+
+
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "90-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.05
+      },
+      "annomalies": [
+        {
+          "position": 5,
+          "coef": 2
+        },
+        {
+          "position": 10,
+          "coef": 4
+        },
+        {
+          "position": 20,
+          "coef": 4
+        },
+        {
+          "position": 50,
+          "coef": 2
+        },
+        {
+          "position": 120,
+          "coef": 3
+        },
+        {
+          "position": 150,
+          "coef": 4
+        },
+        {
+          "position": 180,
+          "coef": 0.01
+        }
+      ]
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "91-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.2
+      },
+      "annomalies": [
+        {
+          "position": 10,
+          "coef": 2
+        },
+        {
+          "position": 15,
+          "coef": 4
+        },
+        {
+          "position": 25,
+          "coef": 4
+        },
+        {
+          "position": 55,
+          "coef": 2
+        },
+        {
+          "position": 125,
+          "coef": 3
+        },
+        {
+          "position": 155,
+          "coef": 4
+        },
+        {
+          "position": 185,
+          "coef": 0.01
+        }
+      ]
+    },
+    {
+      "meta": {
+        "path": "../timeseries/",
+        "time_series_name": "92-ts",
+        "number_of_observations": 200
+      },
+      "base_line": {
+        "base": 0.5,
+        "variance": 0.2
+      }
+    }
+  ]
+}
